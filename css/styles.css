@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #3F0D30;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+main,
+header {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+header {
+  border-bottom: 5px solid #bd295b;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+h2 {
+  width: 100%;
+  font-size: 5vw;
+}
+
+a {
+  color: #fff;
+}
+
+#invader-logo {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: auto;
+  fill: #02b3e4;
+}
+
+section.featured-invaders {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  article {
+    margin: 10px;
+    width: calc((100% - 40px) / 2);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #invader-logo {
+    margin: 0 10px;
+  }
+
+  .info > h1,
+  .info > p {
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 2.5vw;
+    text-align: left;
+  }
+
+  article {
+    width: calc((100% - 60px) / 3) ;
+  }
+}
