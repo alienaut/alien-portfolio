@@ -1,9 +1,6 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -13,10 +10,7 @@ body {
   background-color: #3F0D30;
 }
 
-img,
-embed,
-object,
-video {
+img {
   max-width: 100%;
 }
 
@@ -25,12 +19,6 @@ header {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-}
-
-.row {
-  width: 100%;
-  margin-bottom: 20px;
-  display: flex;
 }
 
 header {
